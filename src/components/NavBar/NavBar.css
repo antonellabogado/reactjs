@@ -1,0 +1,21 @@
+.navbar {
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav-link, .carrito{
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+}
+
+.nav-link:hover, .nav-link:focus, .carrito:hover, .carrito:focus {
+    background-size: 100% 2px;
+    transition: background-size .5s;
+}
